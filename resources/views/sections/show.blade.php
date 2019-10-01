@@ -10,20 +10,25 @@
 				<tr>
 					<th scope="col">ID</th>
 					<th scope="col">Name</th>
+					<th scope="col">Is Active</th>
+
 					
 				</tr>
 			</thead>
 			<tbody>
-				@foreach($subjects as $subjects)
+				@foreach($sections as $sections)
 					<tr>
-						<td>{{ $subjects->id }}</td>
-						<td>{{ $subjects->name }}</td>
+						<td>{{ $sections->id }}</td>
+						<td>{{ $sections->name }}</td>
+						<td>{{ $sections->is_active }}</td>
+
+
 						
 					</tr>
 				@endforeach
 			</tbody>
 		</table>
-		<a class="btn btn-primary" href='/subjects/add'>Add New Subject</a>
+		<a class="btn btn-primary" href='/sections/add'>Add New Section</a>
 		
 
 	</div>

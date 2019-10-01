@@ -11,8 +11,12 @@
 |
 */
 
+Route::get('/', function () {
+    return view('welcome');
+});
 
-Route::get('/subjects','SubjectsController@show');
+
+Route::get('/subjects','SubjectsController@index');
 Route::get('/subjects/add','SubjectsController@create');
 Route::post('/subjects/store','SubjectsController@store');
 
@@ -25,7 +29,7 @@ Route::post('/teachers/add','TeachersController@add');
 Route::post('/teachers/store','TeachersController@store');
 
 Route::get('/sections','SectionsController@index');
-Route::post('/sections/add','SectionsController@add');
+Route::get('/sections/add','SectionsController@create');
 Route::post('/sections/store','SectionsController@store');
 
 Route::get('/subject-strands','SubjectStrandsController@index');

@@ -2,7 +2,7 @@
 @section('content')
 	<div class="container">
 		@include('layouts.errors')
-		<form method="POST" action="/subjects/add">
+		<form method="POST" action="/sections/store">
 			@csrf
 		  <div class="form-group">
 		    <label for="title">Name</label>

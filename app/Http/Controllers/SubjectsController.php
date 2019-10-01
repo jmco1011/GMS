@@ -7,30 +7,33 @@ use App\Subject;
 
 class SubjectsController extends Controller
 {
-     public function show()
+     public function show(Subject $subjects)
     {
-    	$subjects = Subject::all();
     	return view('subjects.show')->with('subjects',$subjects);
     }
 
     public function create()
     {
-    	return view('subjects.add');
+    	return view('subjects.create');
     }
 
-    public function add()
+    public function store()
     {
         request()->validate([
             'name' => 'required',
             
         ]);
         
-    	$project = new Project;
-    	$project->name = request()->name;
-    	
-    	$project->save();
+    	$subjects = new Subject;
+    	$subjects->name = request()->name;
+    	$subjects->save();
 
     	return redirect('/subjects');
     }
+    public function index()
+    {
+            $subjects = Subject::all();  
+            return view('subjects.show')->with('subjects',$subjects);      
+        }
 
 }
