@@ -16,7 +16,7 @@ class CreateTeachersTable extends Migration
         Schema::create('teachers', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->text('name');
-            $table->text('advisory_section');
+            $table->text('advisorysection');
             $table->timestamps();
         });
     }

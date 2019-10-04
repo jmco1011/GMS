@@ -18,9 +18,8 @@
                     <tr>
                         <td> <a class="btn btn-primary" href='/subjects'>Subject</a></td>
                         <td> <a class="btn btn-primary" href='/sections'>Section</a></td>
-                        <td> <a class="btn btn-primary" href='/subjects/add'>Strand</a></td>
-                        <td> <a class="btn btn-primary" href='/subjects/add'>Add New Subject</a></td>
-                        <td> <a class="btn btn-primary" href='/subjects/add'>Teacher</a></td>
+                        <td> <a class="btn btn-primary" href='/strands'>Strand</a></td>
+                        <td> <a class="btn btn-primary" href='/teachers'>Teacher</a></td>
                         
                     </tr>
                 
