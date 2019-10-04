@@ -39,3 +39,7 @@ Route::post('/sections/store','SectionsController@store');
 Route::get('/subject-strands','SubjectStrandsController@index');
 Route::post('/subject-strands/add','SubjectStrandsController@create');
 Route::post('/subject-strands/store','SubjectStrandsController@store');
+
+Route::get('/teacher-loads','TeacherLoadsController@index');
+Route::post('/teacher-loads/store','TeacherLoadsController@store');
+Route::get('/teacher-loads/{teacher-load/update','TeacherLoadsController@update');	
