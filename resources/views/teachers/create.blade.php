@@ -7,8 +7,18 @@
 		  <div class="form-group">
 		    <label for="title">Name</label>
 		    <input type="text" class="form-control" name='name'  placeholder="name">
-		     <label for="title">Advisory Section</label>
-		    <input type="text" class="form-control" name='advisorysection'  placeholder="name">
+		    
+		    <label for="title">Advisory Section</label>
+		    	<div class="dropdown">
+ 					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Advisory Section
+ 					</button>
+ 					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+ 			 	  	<a class="dropdown-item" href="#">Action</a>
+  					<a class="dropdown-item" href="#">Another action</a>
+    				<a class="dropdown-item" href="#">Something else here</a>
+  				</div>
+				</div>
+
 		  </div>
 		 
 		  <button type="submit" class="btn btn-primary">Submit</button>

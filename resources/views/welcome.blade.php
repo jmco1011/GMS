@@ -16,10 +16,8 @@
             <tbody>
                
                     <tr>
-                        <td> <a class="btn btn-primary" href='/subjects'>Subject</a></td>
-                        <td> <a class="btn btn-primary" href='/sections'>Section</a></td>
-                        <td> <a class="btn btn-primary" href='/strands'>Strand</a></td>
-                        <td> <a class="btn btn-primary" href='/teachers'>Teacher</a></td>
+                       Welcome
+                       
                         
                     </tr>
                 

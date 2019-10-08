@@ -14,10 +14,10 @@ class LoginController extends Controller
 
     public function authenticate()
     {
+       
     	if(Auth::attempt([
-    		'email' => request()->email, 
-    		'password' => request()->password
-    	])) {
+         'email' => request()->email,
+          'password' => request()->password ])) {
     		return redirect('/welcome');
     	}
 
