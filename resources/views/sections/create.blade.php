@@ -10,7 +10,7 @@
 		  </div>
 		  <div class="form-group">
 		    <label for="title">Is Active</label>
-		    <input type="text" class="form-control" name='isactive'  placeholder="name">
+		    <input type="text" class="form-control" name='is_active'  placeholder="name">
 		  </div>
 		 
 		  <button type="submit" class="btn btn-primary">Submit</button>

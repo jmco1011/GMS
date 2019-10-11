@@ -11,6 +11,7 @@
 					<th scope="col">ID</th>
 					<th scope="col">Name</th>
 					<th scope="col">Advisory Section</th>
+					<th scope="col">Action</th>
 					
 				</tr>
 			</thead>
@@ -20,6 +21,7 @@
 						<td>{{ $teachers->id }}</td>
 						<td>{{ $teachers->name }}</td>
 						<td>{{ $teachers->advisorysection }}</td>
+						<td><a class="btn btn-primary" href='/teachers/edit'> Update</td>
 
 						
 					</tr>
